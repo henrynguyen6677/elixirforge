@@ -1,0 +1,19 @@
+# Elixir / Phoenix
+/_build/
+/deps/
+/node_modules/
+*.ez
+
+# Phoenix secrets (nếu dùng secrets trong config)
+config/*.secret.exs
+
+# Next.js / Node.js
+/apps/frontend/.next/
+/apps/frontend/out/
+/apps/frontend/node_modules/
+
+# Others
+.env
+.env.*
+.DS_Store
+
